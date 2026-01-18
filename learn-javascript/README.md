@@ -6,7 +6,7 @@
 
 ## 문서
 
-- [개발 환경 설정](docs/development-environment-setup.md)
+- [개발 환경 설정](./docs/development-environment-setup.md)
 
 ## 실습 코드
 
