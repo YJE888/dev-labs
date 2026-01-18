@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <style type="text/css">
+      /* 모든 p 태그에 요소 적용 */
+      p {
+        color: blue;
+      }
+
+      /* 모든 id-test id 태그에 요소 적용 */
+      #id-test {
+        color: green;
+      }
+      /* 모든 class-test class 태그에 요소 적용 */
+      .class-test {
+        color: red;
+      }
+      /* id 태그와 class 태그 공통 요소 적용 */
+      #id-test,
+      .class-test {
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Hello world!</p>
+    <p>lol lol</p>
+    <div id="id-test">id를 적용함</div>
+    <div class="class-test">class를 적용함</div>
+    <div class="class-test">class를 적용함</div>
+  </body>
+</html>

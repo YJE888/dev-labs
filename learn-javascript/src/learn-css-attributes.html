@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <style type="text/css">
+      /* width가 50%면 item1의 부모인 div가 차지하고 있는 너비의 50%를 차지하게 됨 */
+      #item1 {
+        /* width: 50%; */
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        color: white;
+      }
+      #item2 {
+        width: 150px;
+        height: 100px;
+        color: blue;
+        background-color: skyblue;
+        font-size: 32px;
+        font-weight: bold;
+      }
+      #item-list {
+        width: 100px;
+        height: 200px;
+        background-color: gray;
+        padding: 16px;
+      }
+      #item-list > #item3 {
+        margin-left: 16px;
+        margin-bottom: 32px;
+        background-color: beige;
+      }
+      #item-list > #item4 {
+        background-color: pink;
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="item1">1번 아이템</div>
+    <div id="item2">2번 아이템</div>
+    <div id="item-list">
+      <div id="item3">3번 아이템</div>
+      <div id="item4">4번 아이템</div>
+    </div>
+  </body>
+</html>

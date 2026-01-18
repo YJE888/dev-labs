@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <style type="text/css">
+      /* 하위 선택자 
+      item-list의 p 태그 4개 요소 모두에게 적용 */
+      #item-list p {
+        color: blue;
+      }
+
+      /* 자식 선택자 
+      item-list의 p태그 중 첫번째 자식 아이템-1,2에만 적용 */
+      #item-list > p {
+        color: red;
+      }
+
+      /* 첫번째 자식 아이템-1,2의 경우 하위 선택자와 자식 선택자 모두에게 선택됐지만
+      가장 하위에 있는 선택자만 적용됨(top-down방식?) */
+    </style>
+  </head>
+  <body>
+    <div id="item-list">
+      <p>첫번째 자식 아이템-1</p>
+      <p>첫번째 자식 아이템-2</p>
+      <div>
+        <p>두번째 자식 아이템-1</p>
+        <p>두번째 자식 아이템-2</p>
+      </div>
+    </div>
+  </body>
+</html>
